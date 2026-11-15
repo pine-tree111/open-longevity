@@ -13,8 +13,8 @@ You do **not** need to be a software engineer or bioinformatician to use this fr
 ### Step 1: Download & Open in Your AI Environment
 1. Download this repository as a ZIP (click the green **Code** button $\rightarrow$ **Download ZIP**) and extract it.
 2. Open the folder in your favorite AI-enabled environment:
-   - **Cursor IDE** or **VS Code** (with Claude or GitHub Copilot extension)
-   - **Claude Code** / **Codex** / **OpenCode**
+   - **Cursor** / **Windsurf** / **VS Code** (with Claude or GitHub Copilot extension)
+   - **Claude Code** / **Codex** / **Antigravity**
 
 ### Step 2: Add Your Health Data (Zero Typing Required)
 You have two easy ways to initialize your health profile:
