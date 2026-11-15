@@ -1,20 +1,21 @@
 # Open-Longevity 🧬
 
-> An open-source, agent-native preventative healthspan engineering architecture designed for anyone, anywhere, to run with their personal AI agent.
+> An open-source preventative healthspan engineering architecture designed to run with any AI agent, web chat (ChatGPT / Claude / DeepSeek), or 100% private local model.
 
-**Open-Longevity** is an open-source biological engineering framework designed to achieve the majority of cardiometabolic and healthspan optimization benefits, using validated generic pharmaceuticals, evidence-based nutrition, progressive exercise mechanics, and autonomous AI biomarker triage.
+**Open-Longevity** is an evidence-based biological engineering framework designed to achieve the majority of cardiometabolic and healthspan optimization benefits using validated generic pharmaceuticals, nutrition science, progressive exercise mechanics, and autonomous AI biomarker triage.
 
 ---
 
 ## 🚀 Quickstart for Users (3 Simple Steps)
 
-You do **not** need to be a software engineer or bioinformatician to use this framework.
+You do **not** need to be a programmer or bioinformatics expert to use this framework.
 
-### Step 1: Download & Open in Your AI Environment
-1. Download this repository as a ZIP (click the green **Code** button $\rightarrow$ **Download ZIP**) and extract it.
-2. Open the folder in your favorite AI-enabled environment:
-   - **Cursor** / **Windsurf** / **VS Code** (with Claude or GitHub Copilot extension)
-   - **Claude Code** / **Codex** / **Antigravity**
+### Step 1: Use with Any AI You Already Have (Zero Coding Required)
+Open-Longevity works with **any AI environment**:
+
+* **Web AI Chats**: Simply upload `AGENTS.md` and your blood test into **ChatGPT**, **Claude.ai**, or **DeepSeek**.
+* **100% Private & Offline AI**: Load `AGENTS.md` into **Ollama**, **LM Studio**, or **Open WebUI** to analyze your health records completely offline on your own machine.
+* **Agentic IDEs & Terminal Tools**: Open the folder directly in **Cursor**, **Windsurf**, **VS Code**, **Claude Code**, or **Aider**.
 
 ### Step 2: Add Your Health Data (Zero Typing Required)
 You have two easy ways to initialize your health profile:
