@@ -1,0 +1,31 @@
+# ========================================================
+# STRICT PRIVACY & DATA ISOLATION SHIELD
+# Guarantees personal health data is never committed.
+# ========================================================
+
+# User Health State & Dynamic Protocols (Private)
+profile/user_profile.yaml
+profile/protocols/*
+!profile/protocols/.gitkeep
+!profile/protocols/README.md
+
+# Lab Drop-Zone: Private PDFs, scans, photos (Private)
+profile/lab_reports/*
+!profile/lab_reports/.gitkeep
+!profile/lab_reports/README.md
+
+# Telemetry & Personal Metric Logs
+telemetry/logs/*
+!telemetry/logs/.gitkeep
+
+# Environment & Credentials
+.env
+*.pem
+*.key
+
+# Python Virtual Environment & Artifacts
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/

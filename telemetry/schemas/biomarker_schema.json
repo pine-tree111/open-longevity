@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BiomarkerObservation",
+  "type": "object",
+  "required": ["timestamp", "category", "marker", "value", "unit"],
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["lipids", "glycemic", "inflammatory", "hepatic", "renal", "hematology"]
+    },
+    "marker": {
+      "type": "string"
+    },
+    "value": {
+      "type": "number"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "lab_facility": {
+      "type": ["string", "null"]
+    }
+  },
+  "additionalProperties": false
+}

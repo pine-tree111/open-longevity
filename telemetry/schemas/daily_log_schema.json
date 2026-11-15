@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DailyMetricLog",
+  "type": "object",
+  "required": ["date", "sleep_hours", "resting_heart_rate"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "sleep_hours": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 24
+    },
+    "resting_heart_rate": {
+      "type": "number",
+      "minimum": 30,
+      "maximum": 200
+    },
+    "hrv_rmssd_ms": {
+      "type": ["number", "null"]
+    },
+    "post_meal_walk_minutes": {
+      "type": ["number", "null"],
+      "minimum": 0
+    },
+    "adherence_score": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 100
+    }
+  },
+  "additionalProperties": false
+}

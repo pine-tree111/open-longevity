@@ -1,0 +1,52 @@
+# ==============================================================================
+# OPEN-LONGEVITY USER HEALTH PROFILE TEMPLATE
+# Copy this file to 'profile/user_profile.yaml' and enter your numbers.
+# NOTE: 'profile/user_profile.yaml' is strictly ignored by Git to protect your privacy.
+# ==============================================================================
+demographics:
+  age:
+  sex:                      # male | female
+  height_cm:
+  weight_kg:
+  country_or_locale:      # used to recommend accessible local options and lab networks
+  budget_preference: "accessible"   # accessible | flexible | unconstrained
+clinical_context:
+  primary_goals:
+    - "Eradicate cardiovascular risk"
+    - "Optimize metabolic health and insulin sensitivity"
+  diagnosed_conditions: []
+  injuries_or_joint_history: []
+  known_allergies: []
+  current_medications: []
+  current_supplements: []
+baseline_biomarkers:
+  # Enter values from recent lab panels (leave null if untested):
+  lipids:
+    total_cholesterol_mg_dl: null
+    ldl_c_mg_dl: null
+    hdl_c_mg_dl: null
+    triglycerides_mg_dl: null
+    apob_mg_dl: null
+    lipoprotein_a_nmol_l: null
+  glycemic_and_metabolic:
+    fasting_glucose_mg_dl: null
+    fasting_insulin_uIU_ml: null
+    hba1c_percent: null
+    two_hour_ogtt_mg_dl: null
+  cardiovascular_and_inflammatory:
+    resting_bp_systolic: null
+    resting_bp_diastolic: null
+    resting_heart_rate_bpm: null
+    hs_crp_mg_l: null
+    homocysteine_umol_l: null
+  organ_safety_and_renal:
+    alt_u_l: null
+    ast_u_l: null
+    creatinine_mg_dl: null
+    egfr_ml_min: null
+    albumin_g_dl: null
+  nutritional_and_hematology:
+    vitamin_d_25_oh_ng_ml: null
+    vitamin_b12_pg_ml: null
+    serum_ferritin_ng_ml: null
+    hemoglobin_g_dl: null
